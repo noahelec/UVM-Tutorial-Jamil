@@ -42,3 +42,18 @@ This tutorial aims to teach the basics of UVM by providing a simple example. It 
    ```bash
    git clone <repository_url>
    cd <repository_directory>
+   
+2. Set up the UVM library in your simulator environment. Refer to your simulator's documentation for specific instructions.
+
+3. Compile the SystemVerilog files using your simulator. For example, using ModelSim:
+
+   ```bash
+   vlog -sv interface.sv sequence_item.sv sequencer.sv driver.sv monitor.sv agent.sv env.sv test.sv top.sv
+
+## Usage
+Run the simulation using your simulator. For example, using ModelSim:
+
+```bash
+vsim -c -do "run -all" top
+
+This command will compile and run the testbench, displaying the simulation results in the console.
