@@ -9,8 +9,7 @@ This repository contains a UVM (Universal Verification Methodology) tutorial bas
 - [Prerequisites](#prerequisites)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
